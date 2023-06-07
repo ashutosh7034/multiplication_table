@@ -1,0 +1,10 @@
+<?php
+$num = 5; // The number for which the multiplication table will be printed
+$tableLength = 10; // Number of rows in the multiplication table
+
+echo "Multiplication Table of $num:\n";
+for ($i = 1; $i <= $tableLength; $i++) {
+    $result = $num * $i;
+    echo "$num x $i = $result\n";
+}
+?>
